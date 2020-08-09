@@ -1,0 +1,215 @@
+
+
+body{
+    background-color:rgb(37, 31, 31) ;
+    
+}
+
+.main{
+    text-align: center;
+    /* width: 400px; */
+    height: 520px;
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 40px;
+    border-radius: 2em;
+    box-shadow:5px 10px blue;
+    animation: animationIn 1.5s;
+    
+}
+@keyframes animationIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.btn-dark{
+    margin-top: 80px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.btn-dark:hover{
+    background-color:blue;
+}
+.heading{
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    
+}
+
+.list{
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 0.1em;
+}
+.opt{
+text-align: center;
+font-size: 15pt;
+font-weight: 700;
+
+}
+
+p{
+    font-size: 14pt;
+}
+.opt1{
+    width: 185px;
+    height: 35px;
+    margin-left: 50px;
+    border: white;
+    border-bottom:0.5px groove
+}
+.list1{
+    width: 185px;
+    height: 37px;
+    margin-left: 22px;
+    border: none;
+    border-bottom:0.5px groove
+}
+
+.re{
+    border-bottom: 2px groove;
+
+}
+
+.labell{
+    margin-right: 100px;
+}
+
+.main1{
+    text-align: center;
+    height: 500px;
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 80px;
+    border-radius: 2em;
+    animation: animationIn 0.75s;
+    box-shadow:5px 10px blue;
+
+}
+
+
+.HU_LOGO{
+        width: 150px;   
+}
+
+
+@media screen and (max width:370px)
+{
+    
+
+body{
+    background-color:rgb(37, 31, 31) ;
+    
+}
+
+.main{
+    text-align: center;
+    /* width: 400px; */
+    height: 520px;
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 40px;
+    border-radius: 2em;
+    box-shadow:5px 10px blue;
+    animation: animationIn 1.5s;
+    
+}
+@keyframes animationIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.btn-dark{
+    margin-top: 80px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.btn-dark:hover{
+    background-color:blue;
+}
+.heading{
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    
+}
+
+.list{
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 0.1em;
+}
+.opt{
+text-align: center;
+font-size: 15pt;
+font-weight: 700;
+
+}
+
+p{
+    font-size: 14pt;
+}
+.opt1{
+    width: 185px;
+    height: 35px;
+    margin-left: 30px;
+    border: white;
+    border-bottom:0.5px groove
+}
+.list1{
+    width: 185px;
+    height: 37px;
+    margin-left: 22px;
+    border: none;
+    border-bottom:0.5px groove;
+}
+
+.re{
+    border-bottom: 2px groove;
+
+}
+
+.labell{
+    margin-right: 40px;
+}
+
+.main1{
+    text-align: center;
+    height: 500px;
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 80px;
+    border-radius: 2em;
+    animation: animationIn 0.75s;
+    box-shadow:5px 10px blue;
+
+}
+
+
+.HU_LOGO{
+        width: 150px;   
+}
+}

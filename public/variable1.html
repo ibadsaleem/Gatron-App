@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatron- Single Phase Calculation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" >
+
+</head>
+<body>
+    <div class="container-fluid" >
+       
+        <div class="main">
+            <h3><br>Variable Frequency Drive Specification</h3>
+            <br><br><label style="font-size: 12;font-weight: bold;"> Power (kW):</label>
+            <input type="number" id="powerlist" class="opt1" placeholder="Enter Power" name="Power">
+
+              <br><br>
+                <label style="font-size: 12;font-weight: bold;">Line Voltage (V):</label>
+                <select  id = "Linevolt" class="opt1"  >
+                    <option class="opt1" value = "">Select One</option>
+                    <option class="linevoltage" value = "110">110 V</option>
+                    <option class="linevoltage" value = "115">115 V</option>
+                    <option class="linevoltage" value = "120">120 V</option>
+                    <option class="linevoltage" value = "127">127 V</option>
+                    <option class="linevoltage" value = "220">220 V</option>
+                    <option class="linevoltage" value = "230">230 V</option>
+                  </select>
+            <br><br>
+            <label style="font-size: 12;font-weight: bold;">Frequency (Hz):</label>
+            <select  id = "Vfreqlist" class="opt1">
+                <option  class="opt1" value = "">Select One</option>
+                <option  class="freq" value = "50">50 Hz</option>
+                <option class="freq" value = "60">60 Hz</option>
+              </select>
+              <br>
+            <button onclick="setvar1()" class="btn-dark">  Next</button>
+            
+        </div>
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+   
+    <script src="app.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
